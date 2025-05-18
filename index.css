@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    color: white;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: Inter;
+
+    
+}
+
+#conversion-section {
+    background-color: #6943FF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+#conversion-guide {
+    
+}
+
+
+#conversion-display {
+    border: 2px solid #B295FF;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 20%; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center; 
+    color: white;
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+#conversion-display > p {
+    font-size: 20px;
+}
+
+#convert-btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.card {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card > h2 {
+    color: #5A537B;
+}
+
+.card > p {
+    color: #353535;
+}
