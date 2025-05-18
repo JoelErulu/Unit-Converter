@@ -22,7 +22,7 @@ body {
 }
 
 
-#conversion-display {
+#conversion-input {
     border: 2px solid #B295FF;
     padding: 16px;
     box-sizing: border-box;
@@ -40,7 +40,7 @@ body {
     font-size: 20px;
 }
 
-#convert-btn {
+#conversion-btn {
     display: block;
     margin: 20px auto 0 auto;
     background-color: white;
