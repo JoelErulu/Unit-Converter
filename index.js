@@ -18,18 +18,21 @@ conversionBtn.addEventListener('click', function () {
 })
 
 function lengthConvert(){
-    let metersToFeet = conversionInput.value * 3.281
-    let feetToMeters = conversionInput.value / 3.281
+    let metersToFeet = (conversionInput.value * 3.281).toFixed(3)
+    let feetToMeters = (conversionInput.value / 3.281).toFixed(3)
     length.innerHTML = `${conversionInput.value} meters = ${metersToFeet}
      | ${conversionInput.value} feet = ${feetToMeters} meters`
 }
 
 function volumeConvert(){
-    volume.innerHTML = conversionInput.value
+    let litersToGallons = (conversionInput.value * 0.264).toFixed(3)
+    let gallonsToLiters = (conversionInput.value / 0.264).toFixed(3)
+    volume.innerHTML = `${conversionInput.value} liters = ${litersToGallons} gallons | ${conversionInput.value} gallons = ${gallonsToLiters} liters`
 
 }
 
 function massConvert() {
-    mass.innerHTML = conversionInput.value
-
+    let kilosToPounds = (conversionInput.value * 2.204).toFixed(3)
+    let poundsToKilos = (conversionInput.value / 2.204).toFixed(3)
+    mass.innerHTML = `${conversionInput.value} kilos = ${kilosToPounds} pounds | ${conversionInput.value} pounds = ${poundsToKilos} kilos`
 }
